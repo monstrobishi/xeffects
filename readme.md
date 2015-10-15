@@ -1,23 +1,23 @@
-Welcome to the XEffects Reloaded shader pack. 
----------------------------------------------------------------------------------------
+#Welcome to the XEffects Reloaded shader pack. 
+
 
 Change Log:
 
- - V 1.4
+####V 1.4
 
 Uploaded to github (After like 7 years lol) and fixed the shader variable issue.
 
- - V 1.3
+####V 1.3
  
 Added VSM shadows, screen space water and ray tracing examples.
 
 Added some improved post-processing functionality including the ability to set custom shader constants and pre/post render callbacks.
 
- - V 1.2.1
+####V 1.2.1
  
 Transparent objects don't have to be affected by the shading anymore.
 
- - V 1.2:
+####V 1.2:
 
 This new release features per-shadow light resolution settings, and the ability to change the resolution at runtime.
 Shadow map resolutions are cached and if multiple lights use the same resolution only one map is created.
@@ -33,7 +33,7 @@ lights as actual spotlights/flashlights.
 
 Also check out the new SSAO example. A newly included shader that calculates ambient occlusion on the fly!
 
- - V 1.0:
+####V 1.0:
 
 This signifies a new revision in XEffects, with alot of changes, resulting in many new features and improved robustness. The amount of lights casting a shadow is now theoretically unlimited, even on older computers. The only limitation is performance, as each light is performed in it's own seperate additive pass.
 
@@ -51,12 +51,12 @@ A side note on shadow maps: Shadow maps can be complicated in nature and require
 
 I hope that was an insightful chapter to read, see you next time.
 
-- Cheers
+Cheers,
 
-License:
+####License:
 
   The Irrlicht Engine License
-  ===========================
+  ---
 
   Copyright (C) 2007-2015 Ahmed Hilali
 
